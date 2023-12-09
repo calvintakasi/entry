@@ -11,26 +11,38 @@
 <body>
     <h1>Entry Management System</h1>
     <form action="#">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter ur name" required>
-        <br>
-        <label for="id">ID:</label>
-        <input type="text" id="id" name="id" placeholder="Enter ur ID" required>
-        <br>
-        <label for="purpose">Purpose of visit:</label>
-        <input type="text" id="purpose" name="purpose" placeholder="Purpose" required>
-        <label for="mob"> Mobile:</label>
-        <input type="text" id="mob" name="mob" placeholder="Enter mobile number" required>
-        <label for="intime">In time:</label>
-        <input type="text" id="intime" name="intime" placeholder="Enter in-time" required>
-        <label for="outtime">Out time:</label>
-        <input type="text" id="outime" name="outime" placeholder="Enter out-time" required>
+        <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter ur name" required>
+        </div>
+        <div class="id">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" placeholder="Enter ur ID" required>
+        </div>
+        <div class="purpose">
+            <label for="purpose">Purpose:</label>
+            <input type="text" id="purpose" name="purpose" placeholder="Purpose" required>
+        </div>
+        <div class="mob">
+            <label for="mob"> Mobile:</label>
+            <input type="text" id="mob" name="mob" placeholder="Enter mobile number" required>
+        </div>
+        <div class="intime">
+            <label for="intime">In time:</label>
+            <input type="text" id="intime" name="intime" placeholder="Enter in-time" required>
+        </div>
+        <div class="outime">
+            <label for="outtime">Out time:</label>
+            <input type="text" id="outime" name="outime" placeholder="Enter out-time" required>
+        </div>
 
 
         <br>
         <br>
         <button type="submit">Enter</button>
-        <button type="submit">Cancel</button>
+        <button type="reset">Clear entry</button>
+        
+          
     </form>
 </body>
 </html>
