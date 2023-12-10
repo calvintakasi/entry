@@ -33,7 +33,7 @@ label {
     font-weight: bold;
 }
 
-input {
+ input {
     width: 180%;
     padding: 12px;
     border: 1px solid #5cafdf;
@@ -41,7 +41,12 @@ input {
     display: flex;
     font-size: 20px;
     
-  }
+  } 
+   
+   .input-box:focus {
+    outline: none;
+    background-color: #fff;
+   }
 
 input:hover{
     background-color: #a4dcf4e7;
